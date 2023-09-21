@@ -1,22 +1,36 @@
+body{
+    background:linear-gradient(#78C1F3,#9BE8D8);
+}
+
 h1{
     text-align: center;
 }
+.par{
+    display: flex;
+    justify-content: center;
+    
+}
 .lst{
     color: purple;
-    display:block;
-    width:200px;
-    margin-left:auto;
-    margin-right:auto;
-    margin-top: 200px;
     border:2px solid #92a8d1;
     border-radius: 50px;
-    padding-left:20px;
+    display:flex;
+    justify-content:center;
+   align-items: center;
+   padding: 10px 20px;
+   margin-top:100px;
+   margin-bottom: 250px;
 }
-ul li a {
+
+a{
     text-decoration: none;
-    color: blue;
-    font-size: larger;
+    font-size:x-large;
+    color: #ca6615;
 }
-.li{
-    margin-top:25px;
+li{
+    padding: 4px;
+}
+a:hover{
+    text-shadow: 0 0 4px #F39F5A;
+    
 }
