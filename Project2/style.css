@@ -1,0 +1,37 @@
+body{
+ background-color: #EEE0C9;
+}
+
+img{
+    width:350px;
+    border-radius: 20px;
+}
+
+.hero, .end{
+    display: flex;
+    justify-content:center ;
+    margin-top: 80px;
+}
+
+.desc{
+    margin-left: 50px;
+    text-align: center;
+}
+a{
+    text-decoration: none;
+    color: #713ABE;
+    text-shadow: 0 0 1px black;
+    font-size:larger;
+    font-weight: bold;
+}
+.end{
+    margin-top: 50px;
+}
+li{
+    font-size: larger;
+}
+a:hover{
+    color:#FF6969;
+    text-shadow:0 0 3px #FF6969;
+}
+
